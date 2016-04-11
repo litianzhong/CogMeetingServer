@@ -1,7 +1,7 @@
 {
-  "name": "ibmessager",
+  "name": "cogmeeting",
   "version": "0.0.1",
-  "description": "ibmessager",
+  "description": "cogmeeting",
   "main": "index.js",
   "dependencies": {
     "async": "^1.4.2",
