@@ -14,9 +14,6 @@ db.on('error', function (error){
 });
 db.once('open', function () {
     console.log('db open');
-    var server = require("./server");
-    var router = require("./router");
-    server.start(router.route);
 });
 
 process.on('SIGINT', function () {

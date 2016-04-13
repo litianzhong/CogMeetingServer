@@ -1,28 +1,18 @@
 module.exports = {
-    users: [
-        {name: "John",password:"888", nickname:""},
-        {name: "Evan",password:"888", nickname:""},
-        {name: "Ray",password:"888", nickname:""},
-        {name: "Lawrence",password:"888", nickname:""},
-        {name: "Baidi",password:"888", nickname:""}
+    participants: [
+        {name: "John",gender:"1", company:"IBM"},
+        {name: "Evan",gender:"0", company:"IBM"},
+        {name: "Test",gender:"1", company:"Sony"},
+        {name: "Lawrence",gender:"1", company:"IBM"}
     ],
-    groups: [
-        {name:"GroupA", description:"Group A", member:[]},
-        {name:"GroupB", description:"Group B", member:[
-            {uid:"John",nickname:"John1"},
-            {uid:"Ray",nickname:"Ray1"}
-        ]},
-        {name:"GroupC", description:"Group C", member:[
-            {uid:"Lawrence",nickname:"Lawrence1"},
-            {uid:"Ray",nickname:"Ray1"}
-        ]}
+    meetings: [
+        {name:"meeting1"},
+        {name:"meeting2"},
+        {name:"meeting3"}
     ],
-    messages: [
-        {from:"John", to: "Evan", chattype: "one", content_type: "str", content:"hello"},
-        {from:"Lawrence", to: "Ray", chattype: "one", content_type: "str", content:"hello ray"},
-        {from:"John", to: "GroupB", chattype: "group", content_type: "str",content:"hello1"},
-        {from:"John", to: "GroupB", chattype: "group", content_type: "str",content:"hello2"},
-        {from:"Lawrence", to: "GroupC", chattype: "group", content_type: "str",content:"hello3"},
-        {from:"Lawrence", to: "GroupC", chattype: "group", content_type: "str",content:"hello4"}
+    invites: [
+        {_participant:"John",_meeting:"meeting1",code:"1234"},
+        {_participant:"John",_meeting:"meeting2",code:"1235"},
+        {_participant:"Test",_meeting:"meeting3",code:"1236"}
     ]
 };
