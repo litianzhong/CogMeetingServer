@@ -8,17 +8,17 @@ var participantSchema = mongoose.Schema({
     name: String,
     gender: String,
     company: String
-});
+},{ versionKey: false });
 var meetingSchema = mongoose.Schema({
     name: String,
     startTime: { type: Date, default: Date.now },
     endTime: { type: Date, default: Date.now }
-});
+},{ versionKey: false });
 var inviteSchema = mongoose.Schema({
     _participant:  [{ type: mongoose.Schema.Types.ObjectId, ref: 'participant' }],
     _meeting:  [{ type: mongoose.Schema.Types.ObjectId, ref: 'meeting' }],
     code: String
-});
+},{ versionKey: false });
 
 
 

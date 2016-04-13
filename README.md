@@ -19,28 +19,25 @@ $ node app
 
 <pre>
 参数   {"code":"xxx"}
-返回值  {
-       "_id": "570dd87c3ca556841e6c9686",
-       "code": "7bccfde7714a1ebadf06c5f4cea752c1",
-       "__v": 0,
-       "_meeting": [
-         {
-           "_id": "570dd87c3ca556841e6c9683",
-           "name": "meeting3",
-           "__v": 0,
-           "endTime": "2016-04-13T05:26:20.030Z",
-           "startTime": "2016-04-13T05:26:20.030Z"
-         }
-       ],
-       "_participant": [
-         {
-           "_id": "570dd87b3ca556841e6c967f",
-           "name": "Test",
-           "gender": "1",
-           "company": "Sony",
-           "__v": 0
-         }
-       ]
-     }
+返回值 {
+      "_id": "570e34a59fb23bdc26657589",
+      "code": "7bccfde7714a1ebadf06c5f4cea752c1",
+      "_meeting": [
+        {
+          "_id": "570e34a59fb23bdc26657586",
+          "name": "meeting3",
+          "endTime": "2016-04-13T11:59:33.616Z",
+          "startTime": "2016-04-13T11:59:33.616Z"
+        }
+      ],
+      "_participant": [
+        {
+          "_id": "570e34a59fb23bdc26657582",
+          "name": "Test",
+          "gender": "1",
+          "company": "Sony"
+        }
+      ]
+    }
 </pre>
 

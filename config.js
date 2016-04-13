@@ -1,7 +1,7 @@
 var config = {
     port: 8080,
     host: '0.0.0.0',
-    isHTTPS: false,
+    isHTTPS: true,
     db: "mongodb://localhost:27017/cogmeeting"
 };
 
