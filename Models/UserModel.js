@@ -11,6 +11,8 @@ var participantSchema = mongoose.Schema({
 },{ versionKey: false });
 var meetingSchema = mongoose.Schema({
     name: String,
+    speaker: String,
+    summary: String,
     startTime: { type: Date, default: Date.now },
     endTime: { type: Date, default: Date.now }
 },{ versionKey: false });

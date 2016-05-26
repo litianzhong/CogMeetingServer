@@ -6,9 +6,9 @@ module.exports = {
         {name: "Lawrence",gender:"1", company:"IBM"}
     ],
     meetings: [
-        {name:"meeting1"},
-        {name:"meeting2"},
-        {name:"meeting3"}
+        {name:"meeting1",speaker:"john",summary:"IBM develop meeting"},
+        {name:"meeting2",speaker:"john",summary:"csdn 开发者大会"},
+        {name:"meeting3",speaker:"john",summary:"中国共产党十八大"}
     ],
     invites: [
         {_participant:"John",_meeting:"meeting1",code:"1234"},
