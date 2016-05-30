@@ -10,8 +10,8 @@ if (config.isHTTPS) {
     var url = require("url");
 
     var options = {
-    key: fs.readFileSync('cert/server-key.pem'),
-    cert: fs.readFileSync('cert/server-cert.pem')
+    key: fs.readFileSync('cert/server.key'),
+    cert: fs.readFileSync('cert/server.crt')
     };
 
     function start(route) {

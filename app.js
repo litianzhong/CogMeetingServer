@@ -20,8 +20,8 @@ if (config.isHTTPS) {
     var fs = require('fs');
 
     var options = {
-        key: fs.readFileSync('cert/privatekey.pem'),
-        cert: fs.readFileSync('cert/certificate.pem')
+        key: fs.readFileSync('cert/server.key'),
+        cert: fs.readFileSync('cert/server.crt')
     };
     https.createServer(options, app).listen(config.port, config.host);
 } else {
